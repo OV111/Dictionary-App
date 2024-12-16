@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.container {
+    background-color: white;
+    border: 2px solid #4B0082;
+    border-radius: 12px;
+    width: 450px;
+    height: 380px;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.48);
+}
+h1 {
+    align-items: center;
+    color: #4B0082;
+    font-style: italic;
+    font-size: 34px;
+    margin-left:90px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+}
+
+.container .searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px;
+    border: none;
+}
+.searchInput input {
+    padding: 0 42px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.searchInput::placeholder {
+    text-align: center;
+}
+.btn1 i {
+    position: absolute;
+    left: 575px;
+    top: 267px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn2 i {
+    position: absolute;
+    right: 575px;
+    top: 267px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn1 i:hover{
+    transform: scale(1.2);
+}
+.btn2 i:hover {
+    background-color: #a5a5a5;
+    transform: scale(1.2);
+}
+
+.word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.word h3 {
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 70px;
+    color:black;
+}
+.word span {
+    position: absolute;
+    padding-left: 230px;
+    margin-right:90px;
+    color: #a5a5a5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.word .volume {
+    position: absolute;
+    font-size: 16px;
+    margin-left: 350px;
+    cursor: pointer;
+    border: none;
+}
+.volume:hover {
+    transform:scale(1.2);
+}
+
+
+.meaning h3 {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 17px;
+    font-size: 22px;
+    color: #4B0082;
+}
+.meaning span {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 47px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.synonym h3{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 84px;
+    font-size: 22px;
+    color: #4B0082;
+}
+.synonym .list {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 600px) {
+    .btn1 i {
+        position: absolute;
+        left: 400px;
+    }
+}
