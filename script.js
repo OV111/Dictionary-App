@@ -14,8 +14,8 @@ let volumeBtn = document.querySelector(".volume");
 
 
 async function fetchApi(word) {
-    const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-    
+    // const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+    const url = `https://api.dictionaryapi.dev/api/v2/entries/en/<word>${word}`
     try {
         const res = await fetch(url);
         const result = res.json();
