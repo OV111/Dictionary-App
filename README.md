@@ -15,5 +15,5 @@
            2. git clone 'https://github.com/OV111/Dictionary-App.git'
            3. cd Your Repository-name
 
-
+![Screenshot 2024-12-17 210418](https://github.com/user-attachments/assets/9ac6f04d-d126-4a40-8881-7270fc3d9079)
            
