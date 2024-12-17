@@ -6,11 +6,14 @@
       4) Pronunciation Audio: Plays the correct pronunciation of the word.
 
 ## 📦 How to Clone the Repository:
-   Copy the Repository URL.
-         On the repository page, click green Code button and copy 
-           (https:/githubcomOV111Dictionary-App.git)
+         Copy the Repository URL.
+               On the repository page, click green Code button and copy 
+                 (https:/githubcomOV111Dictionary-App.git)
 
           Then:
            1. cd ~/Projects
-           2. git clone 'https://github.com/OV111/Login_Form_with_Validation.git'
+           2. git clone 'https://github.com/OV111/Dictionary-App.git'
            3. cd Your Repository-name
+
+
+           
